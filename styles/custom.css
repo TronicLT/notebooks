@@ -1,0 +1,41 @@
+<style>
+    @font-face {
+        /*font-family: "Computer Modern";*/
+        src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
+    }
+
+    li {
+
+        margin-bottom: 1em;
+        text-indent:5px;
+    }
+
+    img{
+        align: "center";
+        height: 404px;
+        width: 328px;
+    }
+
+    div.cell{
+        width:100%;
+        margin-left:1%;
+        margin-right:auto;
+    }
+
+
+</style>
+<script>
+    MathJax.Hub.Config({
+                        TeX: {
+                           extensions: ["AMSmath.js"]
+                           },
+                tex2jax: {
+                    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                    displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+                },
+                displayAlign: 'center', // Change this to 'center' to center equations.
+                "HTML-CSS": {
+                    styles: {'.MathJax_Display': {"margin": 4}}
+                }
+        });
+</script>
